@@ -11,30 +11,52 @@
   <main>
     <div class="page-header">
       <h1>Stuff I've Done</h1>
-      <h4 class="subheader">And things I'm still working on :p</h4>
+      <h4 class="subheader">And things I'm still working on</h4>
+    </div>
+    <div class="code-container">
+      <img src="/images/spade.png"/>
+      <div>
+        <h3>Image-to-Image Translation</h3>
+        <p>As a part of The Agency (Georgia Tech's AI Club), I'm working on a team to recreate NVIDIA's SPADE project, which allows users to draw a simple image
+          using a paint tool, which is then converted to a photorealistic image through the use of DCGANs (deep convolutional generative adversarial networks). 
+          Currently tasks are creating the GUI on the frontend and developing the DCGAN on the backend with pytorch.</p>
+      </div>
+    </div>
+    <div class="code-container">
+      <img src="/images/afm.png"/>
+      <div>
+        <h3>Clustering Techniques for Adhesion Detection</h3>
+        <p>This semester I am performing machine learning research in Dr. Sulchek's BioMEMS Laboratory. Our goal is to use clustering techniques to identify
+          regions of a deflection position curve to isolate where an atomic force microscopy (AFM) probe binds to a ligand surface. Creating a consistent and 
+          reliable tool to classify binding regions and measuring the force for AFM adhesion would potentially help with detecting other forms of force interaction
+          such as cell to cell binding.</p>
+      </div>
     </div>
     <div class="container">
       <div class="code-container">
-        <img src="/images/facebook.png"/>
+        <img src="/images/conv.png"/>
         <div>
-          <h3>Flarpbook</h3>
-          <p>What a wild ride it's been. I build a social platform to help people connect and it's been a lot of fun to make a bajillion dollars. I learned a lot about trust and programming.</p>
+          <h3>CNNs for Vial Inspection</h3>
+          <p> This summer I scraped thousands of images of production and defective vials, labeled and split the images into training and testing sets,
+            and created a convolutional neural network for binary classification. I used python tools such as tensorflow and keras, and used google 
+            colaboratory for an environment to run my training with their GPU. After tuning hyperparameters, I used a RMS cross-entropy loss function on
+            a 3 layer architecture. This network performed on a test batch with a false reject rate of 2%, which was half of the baseline. On the left 
+            is a visualization of the convolutional filters and their weighting of an inspected vial.
+          </p>
       </div>
     </div>
     <div class="code-container">
-      <img src="/images/spotify.png"/>
+      <img src="/images/lynk.png"/>
       <div>
-        <h3>Spootify</h3>
-        <p>Everyone's favorite mystical music app. I learned so much about desktop applications and also making a product that lots of people like to get really aggressive about when they compare it to lesser services like Rdio (rip). Spootify changed the whole world and make iTunes look like trash and also saved people a lot of money and time when it got them to stop downloading music.</p>
+        <h3>Lynk Mobile</h3>
+        <p>A fellow intern had the idea to make an app that allows users to easily share all their social media on one site. We weren't able to work on it
+          together, but I decided to make it a side project of mine. This Flutter app, compatible on iOS and Android, allows users to create links to a 
+          profile they make, which comes with their own unique QR code. When a friend scans this code with their camera, they will be redirected to a website
+          that will show the user's profile and all of their social media links and contact information. Still in development.
+        </p>
       </div>
     </div>
-    <div class="code-container">
-      <img src="/images/google.png"/>
-      <div>
-        <h3>Gargle</h3>
-        <p>Search for anything! The world is your oyster! This is one of my favorite projects because it gave me the skills and manpower to eventually take over the world. Think of anything.... it's on Gargle.</p>
-      </div>
-    </div>
+    
   </main>
 </body>
 </html>

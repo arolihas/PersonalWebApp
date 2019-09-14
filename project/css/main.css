@@ -12,13 +12,12 @@ h4 {
   color: #b5b5b5;
 }
 
-.page-header {
-  text-align: center;
+.jumbotron {
+  padding:10px
 }
 
-.tina-gif {
+.page-header {
   text-align: center;
-  margin: 50px 0;
 }
 
 .queen-of-computers {
@@ -40,8 +39,8 @@ h4 {
 
 .code-container img{
   padding: 20px;
-  max-width: 300px;
-  max-height: 200px;
+  max-width: 450px;
+  max-height: 300px;
 }
 
 .contact-container {
@@ -69,6 +68,6 @@ h4 {
   color: #353535;
 }
 
-.contact-icon.fa-facebook-square {
-  color: #3b5998;
-}
+/* .contact-icon.fa-envelope {
+  color: #353535;
+} */

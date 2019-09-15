@@ -1,3 +1,3 @@
 # Personal Web App
 
-Check it out at arolihas.github.io
+Check it out at http://arolihas.github.io

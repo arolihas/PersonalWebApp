@@ -1,3 +1,7 @@
+---
+redirect_from: "/README.md"
+---
+
 var express = require('express');
 var app = express();
 

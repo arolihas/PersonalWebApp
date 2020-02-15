@@ -71,3 +71,20 @@ h4 {
 /* .contact-icon.fa-envelope {
   color: #353535;
 } */
+
+#wrapper {
+  display: flex;
+}
+
+#left {
+  flex: 0 0 50%
+}
+
+#right {
+  flex: 1;
+}
+
+.brain {
+  width: 500;
+  height: 215;
+}

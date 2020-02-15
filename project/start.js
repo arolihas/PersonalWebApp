@@ -22,6 +22,10 @@ app.get('/projects', function(request, response) {
   response.render('pages/projects');
 });
 
+app.get('/brain', function(request, response) {
+  response.render('pages/brain');
+});
+
 app.get('/contact', function(request, response) {
   response.render('pages/contact');
 });
